@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love coco</title>
+    <!-- 파비콘 -->
+    <link  href="img/fion.png" type="image/x-ion" rel="shortcut icon">
+    <!-- 외부 css -->
+    <link  href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- swiper css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- swiper js cdn -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- 외부 js파일연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="box">
+                <!--로고  -->
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+                </div>
+                <!-- 네비게이션(2차원메뉴) -->
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">애견의류</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">아우터</a></li>
+                                <li><a href="#">상의</a></li>
+                                <li><a href="#">올인원</a></li>
+                                <li><a href="#">원피스</a></li>
+                                <li><a href="#">악세사리</a></li>
+                            </ul>
+                        </li><!--애견의류-->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">산책&외출</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">하네스</a></li>
+                                <li><a href="#">리드줄</a></li>
+                                <li><a href="#">목줄</a></li>
+                                <li><a href="#">산책용품</a></li>
+                                <li><a href="#">가방</a></li>
+                            </ul>
+                        </li><!--산책&외출-->
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">라이프</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">장난감</a>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">푸드&건강</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li><a href="#">음료</a></li>
+                                <li><a href="#">간식</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- 로그인,회원가입 -->
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div><!--box-->
+                <!-- 서브메뉴 배경은 .box의 형제객체로 코딩함.
+                css에서는 부모나 부모의 형제를 제어하는 선택자가 없어서 제이쿼리로 제어해야 함 -->
+                <div class="sub_bg"></div>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="box2">
+                <!-- 화면 왼쪽의 세로막대 -->
+                <div class="bar">
+                    <h3>LOVE COCO</h3>
+                </div>
+                <!-- 메인 비주얼의 이미지 영역(3개) -->
+                <div class="photo">
+                    <ul>
+                        <li><img src="img/main_1.jpg" alt="레이스니트"></li>
+                        <li><img src="img/main_2.jpg" alt="올인원"></li>
+                        <li><img src="img/main_3.jpg" alt="데이백"></li>
+                    </ul>
+                </div>
+                
+                <!-- 설며오가 번호가 play, pause 버튼영역 -->
+                <div class="des_box">
+                            <div class="des">
+                                <ul>
+                                    <li>
+                                        <h1>레이스니트</h1>
+                                        <p>러블리한 고급스러운 무드가 듬뿍담긴'메리노울포근니트'
+                                            <br>네크라인에 풍성한 프릴이 예쁜포근하고 따뜻한 무드의 니트</p>
+                                        <a href="#">VIEW MORE</a>
+                                    </li>
+                                    <li>
+                                        <h1>콤피  데일리 올인원</h1>
+                                        <p>소형견부터 대형견까지~<br>
+                                            사계절내내 코튼 소재로 편안하게!!<br>
+                                            아이체형에 맞게 등 길이와 배 둘레를<br>
+                                            </p>
+                                            <a href="#">VIEW MORE</a>
+                                    </li>
+                                    <li>
+                                        <h1>데이백</h1>
+                                        <p>반려견의 편안함과,안정성을 생각하며<br>
+                                            반려인의 사용성과 편리함을생각하며 완성한 데이백</p>
+                                            <a href="#">VIEW MORE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="number">
+                                <div class="num">
+                                    <ul>
+                                    <li><a href="#"class="active">01</a></li>
+                                    <li><a href="#">02</a></li>
+                                    <li><a href="#">03</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn">
+                                    <hr>  <!--짧은선-->
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                </div>
+                <!-- scroll -->
+                <div class="scroll">
+                    <p>SCROLL</p>
+                    <div class="scroll_btn">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="box2">
+                <div class="s2_contents">
+                    <ul>
+                        <li class="b1">
+                            <a href="#"><img src="img/secion1-1.jpg" alt=""></a>
+                        </li>
+                        <li class="b2">
+                            <a href="#"><img src="img/secion1-2.jpg" alt=""></a>
+                        </li>
+                        <li class="b3">
+                            <a href="#"><img src="img/secion1-3.jpg" alt=""></a>
+                        </li>
+                        <li class="b4">
+                            <a href="#"><img src="img/secion1-4.jpg" alt=""></a>
+                        </li>
+                        <li class="b5">
+                            <a href="#"><img src="img/secion1-5.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+        <section class="s3">
+            <div class="area">
+                <div class="product1">
+                    <h1>
+                        <span>추천상품</span>
+                    </h1>
+                    <div class="product_title">
+                        <div class="product_des">
+                            <ul>
+                                    <li class="d1">
+                                        <h3><span>01</span>젤리베어 티셔츠</h3>
+                                        <p>총 세 가지 컬러로 매일 입힐 수 있는 에브리데이 티셔츠!<br>
+                                            오래 소장하며 입히기 좋은 스타일의 티셔츠입니다.<br>
+                                            오파프만의 입체적인 패턴 및 공정으로<br>
+                                            차별화된 핏을 느껴보세요.
+                                        </p>
+                                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                                    </li>
+                                    <li class="d2">
+                                        <h3><span>02</span>고담 핸즈프리 리드줄</h3>
+                                        <p>핸즈프리 리드줄입니다<br>
+                                            부드럽고 유연한 폴리에스터로 만들었습니다.<br>
+                                            길이는 120~240센티로 상황에 맞게 조절 가능합니다.<br>
+                                            모든 체형에 맞게 조절하여 사용할 수 있습니다.
+                                        </p>
+                                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                                    </li>
+                                    <li class="d3">
+                                        <h3><span>03</span>심플 스트라이프 헛</h3>
+                                        <p>친구들의 편하고 프라이빗한 공간을위한 헛!<br>
+                                            모노톤의 스프라이프 원단으로 제작되어<br>
+                                            어디에서나 잘어울리는디자인입니다.
+                                        </p>
+                                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                                    </li>
+                                    <li class="d4">
+                                        <h3><span>04</span>컵라면 노즈워크 토이</h3>
+                                        <p>뒤죽박죽 엉켜있는 면발 사이사이와<br>
+                                            면발에 붙어있는 고기, 야채 토핑들 안에 간식을 숨겨두면<br>
+                                            발려동물들이 후각 활동을 통해 간식을 찾는<br>
+                                            노즈워크 장난감 입니다.
+                                        </p>
+                                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                                    </li>
+                                    <li class="d5">
+                                        <h3><span>05</span>서울대 약콩 펫 두유</h3>
+                                        <p>장이 약한 아이도,<br>
+                                            건강을 생각하는 엄마·아빠도,<br>
+                                            모두 만족한! 약콩 펫 소이 밀크입니다.
+                                        </p>
+                                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                                    </li>    
+                            </ul>
+                        </div>
+                        <div class="product_list">
+                            <ul>
+                                <li class=" t1 active"><a href="#">애견의류</a></li>
+                                <li class="t2"><a href="#">산책&외출</a></li>
+                                <li class="t3"><a href="#">라이프</a></li>
+                                <li class="t2"><a href="#">장남감</a></li>
+                                <li class="t2"><a href="#">푸드&건강</a></li>
+                            </ul>
+                        </div>
+                    </div>     
+                <div class="product2">
+                    <ul>
+                        <li class="img1"><img src="img/secion_2-1.jpg" alt="젤리베어 티셔츠"></li>
+                        <li class="img2"><img src="img/secion_2-2.jpg" alt="고담 핸즈프리 리드줄"></li>
+                        <li class="img3"><img src="img/secion_2-3.jpg" alt="심플 스트라이프 헛"></li>
+                        <li class="img4"><img src="img/secion_2-4.jpg" alt="컵라면 노즈워크 토이"></li>
+                        <li class="img5"><img src="img/secion_2-5.jpg" alt="서울대 약콩 펫 두유"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="area">
+                <div class="new_bg">
+                </div>
+                    <div class="new_des">
+                        <div class="new_title">
+                            <h1><span>NEW </span>신상품</h1>
+                            <hr>
+                        </div>
+                        <h5>이달의 신상품을 소개합니다:)</h5>
+                        <a href="#"><img src="img/p_icon.png" alt="더하기"></a>
+                    </div>   
+                <div class="new_list">    
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#">
+                                <!--이미지-->
+                                    <div class="new_img">
+                                    <img src="img/secion_3-1.jpg" alt="신상품1">
+                                    </div>
+                                    <p>러브프릴 티셔츠<br>39,000원</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                    <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-2.jpg" alt="신상품2">
+                                    </div>
+                                    <p>크로플 베이직 티셔츠 M~5XL<br>24,000원</p>
+                                </a>    
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                    <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-3.jpg" alt="신상품3">
+                                    </div>
+                                    <p>메리's 바나나 노즈워크 장난감<br>7,500원</p>
+                                </a>    
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-4.jpg" alt="신상품4">
+                                    </div>
+                                    <p>나도베어 쿠션<br>98,000원</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-5.jpg" alt="신상품5">
+                                    </div>
+                                    <p>코지 데이 강아지 티셔츠<br>34,000원</p>
+                                </a>    
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-6.jpg" alt="신상품6">
+                                    </div>
+                                    <p>바베큐 고기 장난감 노즈워크<br><span>8,900원</span></p>
+                                </a>    
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-7.jpg" alt="신상품7">
+                                    </div>
+                                    <p>펫플루언서 콜라 풉팩파우치<br>13,900원</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide"><a href="#">
+                                    <!--이미지-->
+                                    <div class="new_img">
+                                        <img src="img/secion_3-8.jpg" alt="신상품8">
+                                    </div>
+                                    <p>에그토스트 라텍스 강아지장난감<br><span>5,900원</span></p>
+                                </a>    
+                            </div>
+                        </div>
+                    </div> 
+             </div>  
+        </section>
+        <section class="s5">
+            <div class="box2">
+                <div class="insta_title">
+                    <div class="insta_img"><img src="img/inster_icon.png" alt="인스타아이콘"></div>
+                    <h1>lovecoco_dog</h1>
+                    <div class="insta_txt">Fllow</div>
+                </div>
+                <div class="insta_list">
+                    <ul>
+                        <li><a href="#"><img src="img/secion4-1.jpg" alt="인스타이미지1"></a></li>
+                        <li><a href="#"><img src="img/secion4-2.jpg" alt="인스타이미지2"></a></li>
+                        <li><a href="#"><img src="img/secion4-3.jpg" alt="인스타이미지3"></a></li>
+                        <li><a href="#"><img src="img/secion4-4.jpg" alt="인스타이미지4"></a></li>
+                    </ul>
+                </div>
+                <p>인스타를 팔로우하시고 더빠른 상품소식과 할인혜택을 받아보세요!</p>
+            </div>
+        </section>
+        <footer>
+             <div class="footer_box">
+                <div class="box">
+                    <div class="footer_list">
+                        <ul>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보침해방침</a>
+                            </li>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">교환&환불안내</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_box">
+               <div class="box">
+                    <div class="footer_left">
+                        <img src="img/logo.png" alt="로고">
+                        <h1>COMPANY 주식회사 와이오피OWNER박주석</h1>
+                        <address>
+                         ADDRESS10559 경기도 고양시 덕양구 서삼릉1길 30 (원흥동) 102<br>
+                         MASTER김수진E-MAILqlsjtm81@naver.com <br>
+                         BUSINESS LICENSE899-86-02004<br>
+                         MALL-ORDER LICENSE제2021-고양덕양구-0409<br>
+                         HOSTING CAFE24DESIGNED By DFLOOR
+                        </address>
+                        <p>COPYRIGHT © lovecoco ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="footer_right">
+                        <h3>CS CENTER</h3>
+                       <div class="phone">
+                           <img src="img/cs_icon (1).png" alt="cs이미지">
+                        
+                        </div>
+                        <h4>TEL ; 0319014803<br>
+                            평일 오전 11:00 ~ 오후 5:00<br>
+                            점심 오후 12:00 ~ 오후 1:00<br>
+                            토 / 일 / 공휴일 휴무</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
